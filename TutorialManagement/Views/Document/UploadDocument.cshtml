@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "UploadDocument";
+}
+
+<h2>UploadDocument</h2>
+<style>
+    .table > tbody > tr > td {
+        border: none;
+    }
+
+    .table {
+        border-collapse: separate;
+        border-spacing: 2px;
+    }
+
+    .ui-autocomplete {
+        max-height: 100px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    * html .ui-autocomplete {
+        height: 100px;
+    }
+
+    .ui-autocomplete-loading {
+        background: white url("../../Images/loader.gif") right center no-repeat;
+    }
+
+    .display-style-block {
+        display: block;
+    }
+
+    .lookup {
+        width: 23% !important;
+    }
+
+    .div-padding-top {
+        padding: 0.5%;
+    }
+</style>
+
+
+
+@*<div class="row">
+    <div class="col-xs-9">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <table class="table">
+                <tbody>
+                    <tr class="field-element row-padding">
+                        <td class="field-label"><label for="Url">URL:</label></td>
+                        <td class="field-value">@Html.TextBoxFor(m => m.Url)</td>
+                    </tr>
+                    <tr class="field-element row-padding">
+                        <td class="field-label"><label for="Title">Title:</label></td>
+                        <td class="field-value col-xs-9">
+                            @Html.TextBoxFor(m => m.Title, new { @maxlength = "100" })
+                        </td>
+                    </tr>
+                    <tr class="field-element row-padding">
+                        <td class="field-label"><label for="Headline">Headline:</label></td>
+                        <td class="field-value">@Html.TextBoxFor(m => m.Headline)</td>
+                    </tr>
+                    <tr class="field-element row-padding">
+                        <td class="field-label"><label for="MetaDescription">Meta Description:</label></td>
+                        <td class="field-value">@Html.TextAreaFor(m => m.MetaDescription, new { @maxlength = "1000", @class = "comment-resizable" })</td>
+                    </tr>
+                    <tr class="field-element row-padding">
+                        <td class="field-label"><label for="SearchTerms">Search Terms(comma Separated for multiple searches):</label></td>
+                        <td class="field-value">@Html.TextBoxFor(m => m.SearchTerms)</td>
+                    </tr>
+                    <tr class="field-element row-padding">
+                        <td class="field-label"><label for="PageContent">Content:</label></td>
+                        <td class="field-value">@Html.TextAreaFor(m => m.PageContent, new { @maxlength = "1000", @class = "comment-resizable" })</td>
+                    </tr>
+                    <tr class="field-element row-padding">
+                        <td class="field-label"><label for="MaxResults">Max Results:</label></td>
+                        <td class="field-value">@Html.TextBoxFor(m => m.MaxResults)</td>
+                    </tr>
+                    <tr class="field-element row-padding">
+                        <td class="field-label"><label for="RelatedCategories">Related Categories:</label></td>
+                        <td class="field-value display-style-block">
+                            <div><label for="Lookup">Lookup &nbsp;</label><input class="lookup" id="Lookup"></div>
+                            <div class="div-padding-top">@Html.TextBoxFor(m => m.RelatedCategories, new { @class = "ui-widget", @placeholder = "Category Ids: e.g. 13,1234,5433" })</div>
+                        </td>
+                    </tr>
+
+                    <tr class="row-padding">
+                        <td class="field-label"><label for="IsLive">Is Live:</label></td>
+                        <td>@Html.CheckBoxFor(m => m.IsLive) </td>
+                    </tr>
+                    <tr class="field-element row-padding">
+                        <td class="field-label"><label for="IsPreferred">Is Preferred:</label></td>
+                        <td class="field-value"> @Html.CheckBoxFor(m => m.IsPreferred) </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="row">
+                <div class="col-xs-3 button-padding">
+                    <input class="btn btn-default" type="submit" value="Create" />
+                </div>
+                <div class="col-xs-3 button-padding">
+                    @Html.ActionLink("Cancel", nameof(SeoGeneratedPagesController.SeoPages), null, new { @class = "max-size btn btn-default", @role = "button" })
+                </div>
+            </div>
+        }
+    </div>
+</div>*@

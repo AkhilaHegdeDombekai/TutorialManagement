@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorialManagement", "TutorialManagement\TutorialManagement.csproj", "{74950C80-F8DC-4EDB-8033-17CF0F4B63F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorialManagement.Data", "TutorialManagement.Data\TutorialManagement.Data.csproj", "{7997D8E0-FE0D-4AE6-9899-62C6E1218703}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74950C80-F8DC-4EDB-8033-17CF0F4B63F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74950C80-F8DC-4EDB-8033-17CF0F4B63F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74950C80-F8DC-4EDB-8033-17CF0F4B63F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74950C80-F8DC-4EDB-8033-17CF0F4B63F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7997D8E0-FE0D-4AE6-9899-62C6E1218703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7997D8E0-FE0D-4AE6-9899-62C6E1218703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7997D8E0-FE0D-4AE6-9899-62C6E1218703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7997D8E0-FE0D-4AE6-9899-62C6E1218703}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

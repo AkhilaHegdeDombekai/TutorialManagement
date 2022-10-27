@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewBag.Title = "_contactForm";
+}
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-5">
+            <hr class="marginbot-50">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="boxed-grey">
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+                <form id="contact-form" action="" method="post" role="form" class="contactForm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Name
+                                </label>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">
+                                    Email Address
+                                </label>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <div class="validation"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">
+                                    Subject
+                                </label>
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Message
+                                </label>
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                                Send Message
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="widget-contact">
+                <h5>Address</h5>
+
+                <address>
+                    <strong>Smt. Indira Gandhi Government First Grade Womens College</strong><br>
+                    S N Nagar,Shimoga, Sagar<br>
+                    Karnataka 577401<br>
+                    <abbr title="Phone">P:</abbr> 081832 27078
+                </address>
+
+                <address>
+                    <strong>Email</strong><br>
+                    <a href="mailto:#">www.indiragfcsagar.org</a>
+                </address>
+                <address>
+                    <strong>We're on social networks</strong><br>
+                    <ul class="company-social">
+                        <li class="social-facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.icbse.com%2Fcolleges%2Fsmt-indira-gandhi-government-first-grade-womens-college-sa%2F11755%2F2" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li class="social-twitter"><a href="https://twitter.com/intent/tweet?text=College&url=http%3A%2F%2Fwww.icbse.com%2Fcolleges%2Fsmt-indira-gandhi-government-first-grade-womens-college-sa%2F11755%2F2&via=icbse" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-google"><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.icbse.com%2Fcolleges%2Fsmt-indira-gandhi-government-first-grade-womens-college-sa%2F11755%2F2" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </address>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+

@@ -1,0 +1,275 @@
+/* ----------------------------------------------------------------------------- 
+
+  jQuery DateTimePicker - Responsive flat design jQuery DateTime Picker plugin for Web & Mobile
+  Version 0.1.9
+  Copyright (c)2015 Curious Solutions Pvt Ltd and Neha Kadam
+  http://curioussolutions.github.io/DateTimePicker
+  https://github.com/CuriousSolutions/DateTimePicker
+
+ ----------------------------------------------------------------------------- */
+ 
+/*.dtpicker-overlay
+{
+	z-index: 2000;
+	display:none;
+	min-width: 300px;
+
+	background: rgba(0, 0, 0, 0.2);
+	font-size: 70%;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.dtpicker-mobile
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+	width: 100%;
+	height: 100%;
+}
+
+.dtpicker-overlay * 
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-ms-box-sizing: border-box;
+
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.dtpicker-bg
+{
+	width: 100%;
+	height: 100%;
+
+	font-family: Arial;
+}
+
+.dtpicker-cont
+{
+	border: 1px solid #ECF0F1;
+}
+
+.dtpicker-mobile .dtpicker-cont
+{
+	position: relative;
+	top: 50%;
+
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+	border: none;
+}
+
+.dtpicker-content
+{
+	margin: 0px auto;
+	padding: 1em 0em;
+
+	max-width: 500px;
+
+	background: #fff;
+}
+
+.dtpicker-mobile .dtpicker-content
+{
+	width: 97%;
+}
+
+.dtpicker-subcontent
+{
+	position: relative;
+}
+
+.dtpicker-header
+{
+	margin: 0.2em 1em;
+}
+
+.dtpicker-header .dtpicker-title
+{
+	color: #2980B9;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.dtpicker-header .dtpicker-close
+{
+	position: absolute;
+	top: -0.7em;
+	right: 0.3em;
+	
+	padding: 0.5em 0.5em 1em 1em;
+	
+	color: #FF3B30;
+	font-size: 1.5em;
+	
+	cursor: pointer;
+}
+
+.dtpicker-header .dtpicker-close:hover
+{
+	color: #FF3B30;
+}
+
+.dtpicker-header .dtpicker-value
+{
+	padding:  0.8em 0.2em 0.2em 0.2em;
+	color: #FF3B30;
+	text-align: center;
+
+	font-size: 1.4em;
+}
+
+.dtpicker-components
+{
+	overflow: hidden;
+	margin: 1em 1em;
+	
+	font-size: 1.4em;
+}
+
+.dtpicker-components *
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.dtpicker-components .dtpicker-compOutline
+{
+	display: inline-block;
+	float: left;
+}
+
+.dtpicker-comp2
+{
+	width: 50%;
+}
+
+.dtpicker-comp3
+{
+	width: 33.3%;
+}
+
+.dtpicker-comp5
+{
+	width: 20%;
+}
+
+.dtpicker-comp6
+{
+	width: 16.66%;
+}
+
+.dtpicker-components .dtpicker-comp
+{
+	margin: 2%;
+	text-align: center;
+}
+
+.dtpicker-components .dtpicker-comp > *
+{
+	display: block;
+	height: 30px;
+
+	color: #2980B9;
+
+	text-align: center;
+	line-height: 30px;
+}
+
+.dtpicker-components .dtpicker-comp > *:hover
+{
+	color: #2980B9;
+}
+
+.dtpicker-components .dtpicker-compButtonEnable
+{
+	opacity: 1;
+}
+
+.dtpicker-components .dtpicker-compButtonDisable
+{
+	opacity: 0.5;
+}
+
+.dtpicker-components .dtpicker-compButton
+{
+	background: #FFFFFF;
+	font-size: 140%;
+
+	cursor: pointer;
+}
+
+.dtpicker-components .dtpicker-compValue
+{
+	margin: 0.4em 0em;
+	width: 100%;
+	border: none;
+	background: #FFFFFF;
+
+	font-size: 100%;
+
+	-webkit-appearance: none;
+}
+
+.dtpicker-overlay .dtpicker-compValue:focus
+{
+	outline: none;
+	background: #F2FCFF;
+}
+
+.dtpicker-buttonCont
+{
+	overflow: hidden;
+	margin: 0.2em 1em;
+}
+
+.dtpicker-buttonCont .dtpicker-button
+{
+	display: block;
+	padding: 0.6em 0em;
+	width: 47%;
+	background: #FF3B30;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.5em;
+
+	cursor: pointer;
+}
+
+.dtpicker-buttonCont .dtpicker-button:hover
+{
+	color: #FFFFFF;
+}
+
+.dtpicker-singleButton .dtpicker-button
+{
+	margin: 0.2em auto;
+}
+
+.dtpicker-twoButtons .dtpicker-buttonSet
+{
+	float: left;
+}
+
+.dtpicker-twoButtons .dtpicker-buttonClear
+{
+	float: right;
+}*/
+
+/*!
+ * Datetimepicker for Bootstrap 3
+ * version : 4.17.37
+ * https://github.com/Eonasdan/bootstrap-datetimepicker/
+ */.bootstrap-datetimepicker-widget{list-style:none}.bootstrap-datetimepicker-widget.dropdown-menu{margin:2px 0;padding:4px;width:19em}@media (min-width:768px){.bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs{width:38em}}@media (min-width:992px){.bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs{width:38em}}@media (min-width:1200px){.bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs{width:38em}}.bootstrap-datetimepicker-widget.dropdown-menu:before,.bootstrap-datetimepicker-widget.dropdown-menu:after{content:'';display:inline-block;position:absolute}.bootstrap-datetimepicker-widget.dropdown-menu.bottom:before{border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:7px solid #ccc;border-bottom-color:rgba(0,0,0,0.2);top:-7px;left:7px}.bootstrap-datetimepicker-widget.dropdown-menu.bottom:after{border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:6px solid white;top:-6px;left:8px}.bootstrap-datetimepicker-widget.dropdown-menu.top:before{border-left:7px solid transparent;border-right:7px solid transparent;border-top:7px solid #ccc;border-top-color:rgba(0,0,0,0.2);bottom:-7px;left:6px}.bootstrap-datetimepicker-widget.dropdown-menu.top:after{border-left:6px solid transparent;border-right:6px solid transparent;border-top:6px solid white;bottom:-6px;left:7px}.bootstrap-datetimepicker-widget.dropdown-menu.pull-right:before{left:auto;right:6px}.bootstrap-datetimepicker-widget.dropdown-menu.pull-right:after{left:auto;right:7px}.bootstrap-datetimepicker-widget .list-unstyled{margin:0}.bootstrap-datetimepicker-widget a[data-action]{padding:6px 0}.bootstrap-datetimepicker-widget a[data-action]:active{box-shadow:none}.bootstrap-datetimepicker-widget .timepicker-hour,.bootstrap-datetimepicker-widget .timepicker-minute,.bootstrap-datetimepicker-widget .timepicker-second{width:54px;font-weight:bold;font-size:1.2em;margin:0}.bootstrap-datetimepicker-widget button[data-action]{padding:6px}.bootstrap-datetimepicker-widget .btn[data-action="incrementHours"]::after{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;content:"Increment Hours"}.bootstrap-datetimepicker-widget .btn[data-action="incrementMinutes"]::after{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;content:"Increment Minutes"}.bootstrap-datetimepicker-widget .btn[data-action="decrementHours"]::after{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;content:"Decrement Hours"}.bootstrap-datetimepicker-widget .btn[data-action="decrementMinutes"]::after{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;content:"Decrement Minutes"}.bootstrap-datetimepicker-widget .btn[data-action="showHours"]::after{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;content:"Show Hours"}.bootstrap-datetimepicker-widget .btn[data-action="showMinutes"]::after{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;content:"Show Minutes"}.bootstrap-datetimepicker-widget .btn[data-action="togglePeriod"]::after{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;content:"Toggle AM/PM"}.bootstrap-datetimepicker-widget .btn[data-action="clear"]::after{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;content:"Clear the picker"}.bootstrap-datetimepicker-widget .btn[data-action="today"]::after{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;content:"Set the date to today"}.bootstrap-datetimepicker-widget .picker-switch{text-align:center}.bootstrap-datetimepicker-widget .picker-switch::after{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;content:"Toggle Date and Time Screens"}.bootstrap-datetimepicker-widget .picker-switch td{padding:0;margin:0;height:auto;width:auto;line-height:inherit}.bootstrap-datetimepicker-widget .picker-switch td span{line-height:2.5;height:2.5em;width:100%}.bootstrap-datetimepicker-widget table{width:100%;margin:0}.bootstrap-datetimepicker-widget table td,.bootstrap-datetimepicker-widget table th{text-align:center;border-radius:4px}.bootstrap-datetimepicker-widget table th{height:20px;line-height:20px;width:20px}.bootstrap-datetimepicker-widget table th.picker-switch{width:145px}.bootstrap-datetimepicker-widget table th.disabled,.bootstrap-datetimepicker-widget table th.disabled:hover{background:none;color:#777;cursor:not-allowed}.bootstrap-datetimepicker-widget table th.prev::after{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;content:"Previous Month"}.bootstrap-datetimepicker-widget table th.next::after{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;content:"Next Month"}.bootstrap-datetimepicker-widget table thead tr:first-child th{cursor:pointer}.bootstrap-datetimepicker-widget table thead tr:first-child th:hover{background:#eee}.bootstrap-datetimepicker-widget table td{height:54px;line-height:54px;width:54px}.bootstrap-datetimepicker-widget table td.cw{font-size:.8em;height:20px;line-height:20px;color:#777}.bootstrap-datetimepicker-widget table td.day{height:20px;line-height:20px;width:20px}.bootstrap-datetimepicker-widget table td.day:hover,.bootstrap-datetimepicker-widget table td.hour:hover,.bootstrap-datetimepicker-widget table td.minute:hover,.bootstrap-datetimepicker-widget table td.second:hover{background:#eee;cursor:pointer}.bootstrap-datetimepicker-widget table td.old,.bootstrap-datetimepicker-widget table td.new{color:#777}.bootstrap-datetimepicker-widget table td.today{position:relative}.bootstrap-datetimepicker-widget table td.today:before{content:'';display:inline-block;border:solid transparent;border-width:0 0 7px 7px;border-bottom-color:#337ab7;border-top-color:rgba(0,0,0,0.2);position:absolute;bottom:4px;right:4px}.bootstrap-datetimepicker-widget table td.active,.bootstrap-datetimepicker-widget table td.active:hover{background-color:#337ab7;color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25)}.bootstrap-datetimepicker-widget table td.active.today:before{border-bottom-color:#fff}.bootstrap-datetimepicker-widget table td.disabled,.bootstrap-datetimepicker-widget table td.disabled:hover{background:none;color:#777;cursor:not-allowed}.bootstrap-datetimepicker-widget table td span{display:inline-block;width:54px;height:54px;line-height:54px;margin:2px 1.5px;cursor:pointer;border-radius:4px}.bootstrap-datetimepicker-widget table td span:hover{background:#eee}.bootstrap-datetimepicker-widget table td span.active{background-color:#337ab7;color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25)}.bootstrap-datetimepicker-widget table td span.old{color:#777}.bootstrap-datetimepicker-widget table td span.disabled,.bootstrap-datetimepicker-widget table td span.disabled:hover{background:none;color:#777;cursor:not-allowed}.bootstrap-datetimepicker-widget.usetwentyfour td.hour{height:27px;line-height:27px}.bootstrap-datetimepicker-widget.wider{width:21em}.bootstrap-datetimepicker-widget .datepicker-decades .decade{line-height:1.8em !important}.input-group.date .input-group-addon{cursor:pointer}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}

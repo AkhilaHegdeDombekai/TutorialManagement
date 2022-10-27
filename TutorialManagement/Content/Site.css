@@ -1,0 +1,275 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.row {
+    padding: 2px 2px 1px 1px;
+}
+
+.large-row {
+    padding: 10px;
+}
+
+.grid-row {
+    border-left: .5px solid lightgray;
+    border-right: .5px solid lightgray;
+    border-top: .5px solid lightgray;
+    border-bottom: .5px solid lightgray;
+    padding: 0;
+}
+
+    .grid-row input {
+        margin-top: 2px;
+    }
+
+    .grid-row select {
+        margin-top: 3px;
+    }
+
+.bottom-line {
+    border-bottom: .5px solid lightgray;
+}
+
+.phone {
+    padding-left: 1px;
+}
+
+.highlight-label {
+    background-color: lightgray;
+    padding: 0;
+    line-height: 30px;
+    padding-left: 5px;
+}
+
+.highlight-label-sm {
+    background-color: lightgray;
+    padding: 0;
+    line-height: 22px;
+    padding-left: 5px;
+}
+
+.lower-emphasis {
+    font-size: x-small;
+}
+
+.higher-emphasis {
+    font-weight: bold;
+}
+
+.section-title {
+    font-size: large;
+}
+
+.comment-resizable {
+    resize: vertical;
+    width: 100%;
+    max-width: 500px;
+    height: 75px;
+}
+
+.dropdown-width {
+    max-width: 100%;
+}
+
+.button-margin {
+    margin-left: 5px;
+}
+
+.site-dropdown {
+    height: 26px;
+    padding-left: 1px;
+}
+
+.dock-right {
+    margin-right: 0;
+}
+
+.button-container {
+    margin-top: 5px;
+}
+
+.button-margin {
+    margin: 5px;
+}
+
+.tdCaption {
+    background: lightgray;
+}
+
+.dateBox {
+    border: 1px lightgray solid;
+    height: 80px;
+}
+
+.month {
+    background: gray;
+    margin: 2px;
+    color: white;
+    text-align: center;
+    height: 25px;
+}
+
+.day {
+    text-align: center;
+    font-size: 25px;
+    height: 30px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.event-label-border {
+    border: 0.5px lightslategrey solid;
+    margin: 2px;
+    text-align: center;
+}
+
+.event-label {
+    background: gray;
+    margin: 5px;
+    color: white;
+}
+
+.event-details {
+    margin: 2px;
+    word-wrap: break-word;
+}
+
+.sample {
+    text-decoration: underline;
+}
+
+.non-edit-field {
+    margin-top: 4px;
+}
+
+.field-label {
+    background: lightgray;
+}
+
+.field-value {
+    background: white;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.field-element {
+    overflow: hidden;
+    padding: 1px 0 1px 0;
+    line-height: 25px;
+}
+
+.button-padding {
+    padding: 3px 5px;
+}
+
+.dropdown-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dataload-border {
+    border: 0.5px lightslategrey solid;
+    margin: 1px;
+    padding: 5px;
+}
+
+    .dataload-border hr {
+        border: 1px lightslategrey solid;
+        margin: 1px;
+    }
+
+.button-margin {
+    margin: 4px;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.button-bottom-space {
+    margin-bottom: 5px;
+}
+
+.datepickerDiv {
+    width: 100px;
+    border-spacing: 0;
+}
+
+.datepickerBoxHeight {
+    height: 30px;
+}
+
+.textbox-width {
+    width: 100%;
+    max-width: 500px;
+}
+
+label {
+    font-weight: normal;
+}
+
+.m-bottom-0 {
+    margin-bottom: 0;
+}
+
+.m-left-0 {
+    margin-left: 0;
+}
+
+.red {
+    color: red;
+}
+
+.contentType-padding {
+    padding: 0 !important;
+}
+
+input:not([type=checkbox]), .max-size {
+    width: 100%;
+}
+
+div.dataload-border input[type="radio"] {
+    width: 2.5% !important;
+}
+
+input[type="checkbox"] {
+    margin: 4px;
+}
+
+.datepickerDiv {
+    width: 50% !Important;
+    border-spacing: 0;
+}
+
+.row-padding {
+    padding: 1px 0 1px 0;
+}
+
+.user-claims tr,
+.user-claims td,
+.user-claims div {
+    height: 20px;
+    padding: 2px;
+}
